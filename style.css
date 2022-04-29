@@ -14,6 +14,15 @@ body{
     font-family:'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+p{
+    font-size: small;
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 30px;
+}
+
 /*header*/
 header{
     background-color: rgb(13, 36, 244);
@@ -37,19 +46,14 @@ li{
 .linkmenu{
     list-style-type: none; 
 }
-
-.logo{
-    
-}
-
+  
 .login{
     background-color: white;
     padding: 10px;
     border-radius: 40px;
 }
 
-
-/*main*/
+/*main-top*/
 .bgjumbo{
     display: flex;
     justify-content: center;
@@ -89,6 +93,7 @@ li{
     border-radius: 40px;
 }
 
+/*main-center*/
 .backwhite{
      width: auto;
      padding: 20px;
@@ -96,7 +101,7 @@ li{
 
 .backgrey{
     display: flex;
-    background-color: grey;
+    background-color: rgb(246, 246, 246);
     width: auto;
     padding: 20px;
     justify-content: center;
@@ -115,22 +120,24 @@ li{
     
 }
 
-p{
-    font-size: small;
-}
-
 .img{
     height: 300px;
     width: 100%;
     padding-left: 60px;
 }
 
-.greensquare{
+/*main-bottom*/
+.lastsquare{
     display: flex;
-    background-color: green;
-    width: 500px;
-    height: 300px;
-    border: 1px dotted;
+    width: auto;
+    height: 700px;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.violet{
+    background-color: rgba(125, 108, 219, 0.92);
 }
 
 /*footer*/
