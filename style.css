@@ -56,7 +56,7 @@ li{
     align-items: center;
     height: 455px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,6 +73,7 @@ li{
     width: 400px;
     font-weight:bold;
     color: white;
+    text-align: center;
 }
 
 .btnwhite{
@@ -82,7 +83,6 @@ li{
     color: black;
 }
 
-
 .btngrey{
     background-color: rgb(40, 43, 46);
     padding: 7px;
@@ -90,7 +90,6 @@ li{
 }
 
 .backwhite{
-    background-color: white;
      width: auto;
      padding: 20px;
 }
@@ -103,18 +102,22 @@ li{
     justify-content: center;
 }
 .boxlb{
-    background-color: lightblue;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 500px;
     margin-bottom: 10px;
-    border: 1px dotted;
 }
 
 .boxpk{
-    background-color: pink;
-    height: 200px;
-    width: 200px;
-    border: 1px dotted;
+    color: black;
+    height: 300px;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+
+.frstimg{
+    height: 300px;
+    width: 100%;
 }
 
 .greensquare{
